@@ -9,9 +9,9 @@
   <meta name="copyright" content="Turma 124" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="./css/style.css">
-  <style type="text/css" media="all">
-    header nav button,
+  <link rel="stylesheet" href="../css/style.css">
+<style type="text/css" media="all">
+header nav button,
 main nav.x_id button {
   color: #fff;
   font-size: 18px;
@@ -66,9 +66,11 @@ main section.a h2 {
 
 main section.a p {
   color: #fff;
-  font-size: 15px;
+  position:relative;
+  font-size: 14px;
   font-family: sans-serif, serif;
-  margin: 20px;
+  font-weight: 500;
+  margin: 15px 0px 15px 20px;
   line-height: 1.5rem;
 }
 
@@ -77,18 +79,12 @@ main section.a p a {
   font-weight: 900;
   text-decoration-color: #f00;
 }
-main nav.x_id details summary{
-  margin:20px 0 10px 20px;
-  list-style: none;
-  color:#fff;
-  font-weight: 900;
-}
-  </style>
+</style>
 </head>
 
 <body>
   <header>
-   <h1> <img src="../assets/img/icon.png" alt="logo">
+   <h1 onclick="location.href='../index.html'"> <img src="../../assets/img/icon.png" alt="logo">
     </h1><nav>
       <button onclick="navBar()">☰</button>
     </nav>
@@ -96,71 +92,65 @@ main nav.x_id details summary{
   <main>
     <nav class="x_id" id="x_id">
       <button onclick="navBar()">☰</button>
-      <li><a href="">HOME</a></li>
-      <details>
-        <summary>
-          ATIVIDADES
-        </summary>
-              <li><a href="./menu/musculacao.html">Musculação</a></li>
-      <li><a href="./menu/aulas_de_danca.html">Aulas de Danças</a></li>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="./menu/musculacao.html">Musculação</a></li>
+      <li><a href="">Aulas de Dança</a></li>
       <li><a href="">Aulas de Lutas</a></li>
       <li><a href="">Treinamentos Personalizados</a></li>
       <li><a href="">Avaliação Física</a></li>
       <li><a href="">Espaço Kids</a></li>
-      </details>
-
     </nav>
-<p>Acadêmia de Atividades Físicas Diversificado <address>
-  Ijuí, Boa Vista
-</address>
-</p>
+
+<section class="a">
+<h2>Aulas de Danças</h2>
+  <article>
+    As aulas de dança  representam uma oportunidade única de explorar o movimento, a expressão artística e a saúde física de maneira integrada. Este formato de aula combina diferentes estilos de dança e práticas de atividade física, proporcionando uma abordagem holística ao bem-estar.
+  </article>
+<img width="100%" height="100%" src="../../assets/img/aulas_de_danca.jpeg" alt="logo">
+ <p>A dança é uma atividade cardiovascular excelente que ajuda a melhorar a resistência, a força e a flexibilidade. As aulas promovem um treino completo, envolvendo diferentes grupos musculares.</p>
 <p style="font-weight: 800;">Funcionamento:</p>
 <table>
   <thead>
     <td>Dias da Semana</td>
     <td>Horário</td>
-    <td>Atividades</td>
+    <td>Atividade</td>
   </thead>
-<tr>
-  <td>Segunda-Feira</td>
-  <td>6h - 22h</td>
-  <td>Musculação</td>
-</tr>
-<tr>
-  <td>Terça-Feira</td>
-  <td>6h - 22h</td>
-  <td>Aula/Dança</td>
-</tr>
-<tr>
-  <td>Quarta-Feira</td>
-  <td>6h - 22h</td>
-  <td>Aula/Luta</td>
-</tr>
-<tr>
-  <td>Quinta-Feira</td>
-  <td>6h - 22h</td>
-  <td>Personalizado</td>
-</tr>
-<tr>
-  <td>Sexta-Feira</td>
-  <td>6h - 22h</td>
-  <td>Avaliação Física</td>
-</tr>
-<tr>
-  <td>Sábado</td>
-  <td>8h - 14h</td>
-  <td>Espaço Kids</td>
-</tr>
-<tr>
-  <td>Domingo</td>
-  <td>-</td>
-  <td>-</td>
-</tr>
+  <tr>
+    <td>Segunda-Feira</td>
+    <td>6h - 22h</td>
+    <td>Aulas de Dança</td>
+  </tr>
+  <tr>
+    <td>Terça-Feira</td>
+    <td>6h - 22h</td>
+    <td>Aulas de Dança</td>
+  </tr>
+  <tr>
+    <td>Quarta-Feira</td>
+    <td>6h - 22h</td>
+    <td>Aulas de Dança</td>
+  </tr>
+  <tr>
+    <td>Quinta-Feira</td>
+    <td>6h - 22h</td>
+    <td>Aulas de Dança</td>
+  </tr>
+  <tr>
+    <td>Sexta-Feira</td>
+    <td>6h - 22h</td>
+    <td>Aulas de Dança</td>
+  </tr>
+  <tr>
+    <td>Sábado</td>
+    <td>8h - 14h</td>
+    <td>Aulas de Dança</td>
+  </tr>
+  <tr>
+    <td>Domingo</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
 </table>
-<section class="a">
-<h2>Musculação</h2>
-<img width="100%" height="100%" src="../assets/img/muscle.jpg" alt="logo">
- <p>Um espaço para o seu crescimento com aparelhos de força e aeróbicos modernos. Venha fazer parte de nossas atividades de <a href="./menu/musculacao.html">musculação</a>.</p>
 </section>
     
   </main>
