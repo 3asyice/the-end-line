@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carrossel</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+.carrossel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.indicadores {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bola {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bola.active {
+    background-color: #717171;
+}
+</style>
+<body>
+    <div class="carrossel">
+        <div class="slides">
+            <div class="slide active">
+                <img src="imagem1.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="imagem2.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="imagem3.jpg" alt="Imagem 3">
+            </div>
+        </div>
+        <div class="indicadores">
+            <span class="bola" onclick="mudarSlide(0)"></span>
+            <span class="bola" onclick="mudarSlide(1)"></span>
+            <span class="bola" onclick="mudarSlide(2)"></span>
+        </div>
+    </div>
+    <script>
+      let slideIndex = 0;
+
+function mostrarSlides() {
+    let slides = document.querySelectorAll('.slide');
+    let bolas = document.querySelectorAll('.bola');
+    
+    slides.forEach((slide, index) => {
+        slide.style.display = (index === slideIndex) ? 'block' : 'none';
+    });
+    
+    bolas.forEach((bola, index) => {
+        bola.className = bola.className.replace(" active", "");
+        if (index === slideIndex) {
+            bola.className += " active";
+        }
+    });
+}
+
+function mudarSlide(n) {
+    slideIndex = n;
+    let slides = document.querySelectorAll('.slide');
+    if (slideIndex >= slides.length) {
+        slideIndex = 0;
+    } else if (slideIndex < 0) {
+        slideIndex = slides.length - 1;
+    }
+    mostrarSlides();
+}
+
+// Inicializa o carrossel
+mostrarSlides();
+    </script>
+</body>
+</html>
