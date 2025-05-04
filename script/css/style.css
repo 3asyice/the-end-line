@@ -73,3 +73,11 @@
       background: #DCFFF7;
       border: 1px solid #000;
     }
+    section.a article{
+      color:#fff;
+      font-family: sans-serif, serif;
+      line-height: 1.5rem;
+      font-size: 14px;
+      font-weight: 500;
+      margin:0 20px 10px 20px;
+    }
