@@ -156,3 +156,14 @@
   color:#fff;
   font-weight: 900;
 }
+footer{
+  background:#000;
+  padding:20px;
+}
+footer p{
+  font-size: 12px;
+  margin: 20px 0 20px 20px;
+  font-weight: 600;
+  font-family: sans-serif, serif;
+  color:#fff;
+}
