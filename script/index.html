@@ -103,19 +103,22 @@ color: #ffe500;
 /* carrossel */
 .carrossel {
   position: relative;
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
   overflow: hidden;
 }
 
 .slides {
   display: flex;
+  justify-content: space-between;
   transition: transform 0.5s ease;
 }
 
 .slide {
   min-width: 100%;
+  background:#005689;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 .slide h2{
   color: #ffbb50;
@@ -128,6 +131,13 @@ text-transform: uppercase;
 font-weight: 900;
 transform: scaleY(1.3);
 margin: 20px 15px 10px 20px;
+}
+main div.carrossel div.slides .slide p{
+  font-weight: 600;
+  color:#fff;
+  font-size: 15px;
+  font-family: sans-serif, serif;
+  
 }
 
 img {
@@ -187,27 +197,27 @@ img {
 </p>
   <p style="font-family:sans-serif, serif;margin:50px 25px 50px 25px;font-size: 24px;line-height: 2rem;font-weight: 900;transform: scaleX(1.0);">Venha treinar na <span style="color:#ffbb50;">mais nova academia de Ijuí</span></p>
 
-<section class="a">
-<h2>Musculação</h2>
-<img width="100%" height="100%" src="../assets/img/muscle.jpg" alt="logo">
- <p>Um espaço para o seu crescimento com aparelhos de força e aeróbicos modernos. Venha fazer parte de nossas atividades de musculação.</p>
- <button onclick="location.href='./menu/musculacao.html'">Saiba Mais</button>
-</section>
+
 
 <div class="carrossel">
 <div class="slides">
 <div class="slide active">
   <h2>Aulas de Dança</h2>
 <img width="450" height="400" src="../assets/img/aulas_de_danca.jpeg" alt="Imagem 1">
-<p>Aulas de Dança para perder gorduras.</p>
+<p>Diversas aulas de Zumba, FitDance, Ballet Fitness, Dança de Salão.</p>
         </div>
 
 <div class="slide">
   <h2>Musculação</h2>
 <img width="450" height="400" src="../assets/img/muscle.jpg" alt="Imagem 2">
+<p>Área com aparelhos de força e aeróbicos modernos.
+
+</p>
         </div>
 <div class="slide">
+  <h2>Aulas de Luta</h2>
 <img width="450" height="400" src="../assets/img/luta_image.jpeg" alt="Imagem 3">
+<p>Aulas exclusivas de Muay Thai, Jiu-Jitsu, Boxe, Judô.</p>
         </div>
 </div>
 <div class="indicadores">
@@ -216,10 +226,7 @@ img {
 <span class="bola" onclick="mudarSlide(2)"></span>
       </div>
     </div>
-    
-<section class="a">
-  <h2>Aulas de Danças</h2>
-</section>
+
   </main>
 <footer>
 <p>&copy; 2025 Acadêmia Multidisciplinar</p>
