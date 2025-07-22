@@ -1,3 +1,3 @@
-#Academia
+#TheEndLine
 
-academia
+The End Line is a daily news.
