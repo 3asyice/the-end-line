@@ -1,8 +1,12 @@
 const links = [
 { url: "../../script/article/001.html", text: "Carlos Henrique Teixeira da Silva" },
-{ url: "../../script/season-1/15-million-merits.html", text: "15 Milhões de Méritos" },
-{ url: "../../script/season-1/the-entire-history-of-you.html", text: "Toda A Sua História" },
-{ url: "../../script/season-2/be-right-back.html", text: "Volto Já" }
+{ url: "../../script/article/002.html", text: "Militar Expulso" },
+{ url: "../../script/article/002.html", text: "Família Inteira Morre em Acidente" },
+{ url: "../../script/article/004.html", text: "Brasileiro Morre Afogado ao Salvar Parente" },
+{ url: "../../script/article/005.html", text: "Navio RMS - Titanic afunda no oceano" },
+{ url: "../../script/article/006.html", text: "Fim da Primeira Guerra Mundial" }
+
+
     ];
 function showSuggestions(value) {
 const suggestions = document.getElementById('suggestions');
