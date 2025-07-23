@@ -78,3 +78,26 @@ background:none;
 header button:hover{
 color:#8B8B8B;
 }
+
+#suggestions {
+border: none;
+display: none;
+position: absolute;
+background: none;
+z-index: 1000;
+width: 100%;
+text-justify: center;
+max-height: 150px;
+overflow-y: auto;
+text-align: center;
+}
+.suggestion-item {
+padding: 10px;
+cursor: pointer;
+text-decoration: none;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+        }
+.suggestion-item:hover {
+background-color: #f0f0f0;
+}
