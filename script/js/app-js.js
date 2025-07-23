@@ -34,3 +34,14 @@ installBtn.addEventListener("click", () => {
     });
   }
 });
+
+
+let wakeLock = null;
+
+async function ativarWakeLock() {
+  try {
+    wakeLock = await navigator.wakeLock.request('screen');
+  } catch (err) {
+    console.error(`${err.name}, ${err.message}`);
+  }
+}
