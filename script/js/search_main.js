@@ -1,5 +1,5 @@
 const links = [
-{ url: "https://google.com", text: "Carlos Henrique Teixeira da Silva" },
+{ url: "script/article/001.html", text: "Carlos Henrique Teixeira da Silva" },
 { url: "script/article/002.html", text: "Militar Expulso" },
 { url: "script/article/003.html", text: "Família Inteira Morre em Acidente" },
 { url: "script/article/004.html", text: "Brasileiro Morre Afogado ao Salvar Parente"},
