@@ -1,0 +1,15 @@
+{
+  "name": "The End Line",
+  "short_name": "The-ELine",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "icons": [
+    {
+      "src": "assets/img/logo/icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+        }
+    ]
+}
