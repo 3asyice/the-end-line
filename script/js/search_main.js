@@ -1,7 +1,7 @@
 const links = [
 { url: "../script/article/001.html", text: "Carlos Henrique Teixeira da Silva" },
 { url: "../script/article/002.html", text: "Militar Expulso" },
-{ url: "../script/article/002.html", text: "Família Inteira Morre em Acidente" },
+{ url: "../script/article/003.html", text: "Família Inteira Morre em Acidente" },
 { url: "../script/article/004.html", text: "Brasileiro Morre Afogado ao Salvar Parente" },
 { url: "../script/article/005.html", text: "Navio RMS - Titanic afunda no oceano" },
 { url: "../script/article/006.html", text: "Fim da Primeira Guerra Mundial" }
