@@ -22,27 +22,28 @@ background: #CCC4B9;
 }
 header h1 {
 margin:20px 0 20px 50px;
-font-size: 26px;
+font-size: 2.0em;
 }
 article h2{
-text-transform: uppercase;
 font-family: 'New Font', sans-serif;
-font-size: 18px;
+font-size: 1.5em;
 text-align: center;
+text-transform: uppercase;
+margin:0 1.5em 0 1.5em;
 }
 hr{
   border:1px solid #000;
 }
 article p.date{
 font-family: 'Times New Roman', sans-serif;
-font-size: 12px;
+font-size: 0.7em;
 text-align: center;
 }
 article p{
-font-size: 14px;
+font-size: 0.9em;
 text-align: left;
-line-height: 24px;
-margin: 15px;
+line-height: 1.9em;
+margin: 1.5em;
 font-weight: 100;
 font-family: 'Times New Roman', sans-serif;
 }
@@ -51,19 +52,29 @@ font-size: 3.5rem;
 font-weight: 900;
 }
 article img.r{
-margin:15px;
+margin:1.5em;
 display:inline;
 float: right;
 }
 article img.l {
-  margin: 15px;
+  margin: 1.5em;
   display: inline;
   float: left;
 }
 footer{
 background:#CCC4B9;
-padding:15px;
+padding:1.5em;
 }
 footer p{
-font-family: 'New Font';
+font-family: 'serif', helvetica;
+font-size: 0.7em;
+}
+header button{
+margin-left: 4.0em;
+border:0;
+font-size: 1.8em;
+background:none;
+}
+header button:hover{
+color:#8B8B8B;
 }
