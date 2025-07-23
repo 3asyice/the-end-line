@@ -86,13 +86,15 @@ position: absolute;
 background: none;
 z-index: 1000;
 width: 100%;
+background:#000;
 text-justify: center;
-max-height: 150px;
+max-height: 350px;
 overflow-y: auto;
 text-align: center;
 }
 .suggestion-item {
 padding: 10px;
+margin:0.7em 1.5em 0.7em 1.5em;
 cursor: pointer;
 text-decoration: none;
 color: #fff;
