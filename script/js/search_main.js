@@ -40,3 +40,12 @@ if (!document.getElementById('linkInput').contains(event.target)) {
 suggestions.style.display = 'none';
 }
 });
+
+var x = document.getElementById('menu_hidden');
+var y = false;
+
+function menu() {
+    y = !y;
+    x.style.display = y ?
+        'block' : 'none';
+}

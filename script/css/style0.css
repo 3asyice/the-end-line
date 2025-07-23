@@ -113,3 +113,10 @@ section.input__search input#linkInput {
   font-weight: 600;
   font-family: 'sans-serif';
 }
+.menu_hidden {
+background:red;
+position:fixed;
+right:0;left:60%;bottom:0;top:0;
+display:none;
+overflow-y:auto;
+}
