@@ -8,6 +8,14 @@ font-display:swap;
   src: url('../../assets/font/LodehRegular.ttf') format('woff2');
   font-display: swap;
 }
+
+/* final destination font */
+@font-face {
+  font-family: fdb;
+  src: url('../../assets/font/anune.ttf') format('woff2');
+  font-display: swap;
+}
+
 *{
 box-sizing: border-box;
 font-family: 'uuu', monospace;
@@ -51,12 +59,26 @@ article p.d:first-letter{
 font-size: 3.5rem;
 font-weight: 900;
 }
+article p.fdb {
+font-family: 'fdb', sans-serif;
+font-size: 0.6em;
+}
 article img.r{
 margin:1.5em;
 display:inline;
 float: right;
 }
+article video.r{
+margin:1.5em;
+display:inline;
+float: right;
+}
 article img.l {
+  margin: 1.5em;
+  display: inline;
+  float: left;
+}
+article video.l {
   margin: 1.5em;
   display: inline;
   float: left;
