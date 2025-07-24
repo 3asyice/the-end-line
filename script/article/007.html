@@ -40,8 +40,23 @@ Em entrevista ao Memória Globo, César Menezes, repórter de São Paulo, enviad
 <p class="fdb">
 is Death coming for you now?
 </p>
-<button onclick="location.href='../../script/article/008.html'">Ver Notícia</button>
-<img class="l" width="50%" src="../../assets/img/logo/jessicasdeath.jpg" alt="jessica escape death">
+<style>
+article button.news__click{
+display: block ;
+margin-left: 1.5em;
+font-size: 1em;
+font-family: sans-serif;
+background: #B1A3A3;
+border-radius: 5px;
+border:none;
+}
+article p.headline{
+background-color: #979797;
+}
+</style>
+<button class="news__click" onclick="location.href='../../script/article/008.html'">Ver Notícia</button>
+<p onclick="location.href='../../script/article/008.html'" class="headline">Após desistir de festa na boate Kiss, jovem morre em acidente no Paraná</p>
+<img onclick="location.href='../../script/article/008.html'" class="l" width="50%" src="../../assets/img/logo/jessicasdeath.jpg" alt="jessica escape death">
 </article>
 
 <footer>
