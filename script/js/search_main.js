@@ -5,9 +5,8 @@ const links = [
 { url: "script/article/004.html", text: "Brasileiro Morre Afogado ao Salvar Parente"},
 { url: "script/article/005.html", text: "Navio RMS - Titanic afunda no oceano" },
 { url: "script/article/007.html", text: "Tragédia: Boate Kiss" },
-{ url: "script/article/006.html", text: "Fim da Primeira Guerra Mundial" }
-
-
+{ url: "script/article/006.html", text: "Fim da Primeira Guerra Mundial" },
+{ url: "script/article/008.html", text: "Após desistir de festa na boate Kiss, jovem morre em acidente no Paraná" }
     ];
 function showSuggestions(value) {
 const suggestions = document.getElementById('suggestions');
