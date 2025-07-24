@@ -1,7 +1,7 @@
 {
   "name": "The End Line",
   "short_name": "End Line News",
-  "start_url": ".",
+  "start_url": "https://3asyice.github.io/the-end-line/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#317EFB",
