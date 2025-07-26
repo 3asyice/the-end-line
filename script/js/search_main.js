@@ -6,6 +6,7 @@ const links = [
 { url: "script/article/005.html", text: "Navio RMS - Titanic afunda no oceano" },
 { url: "script/article/007.html", text: "Tragédia: Boate Kiss" },
 { url: "script/article/006.html", text: "Fim da Primeira Guerra Mundial" },
+{ url: "script/article/009.html", text: "Dançarino Augusto Bergmann da Cunha" },
 { url: "script/article/008.html", text: "Após desistir de festa na boate Kiss, jovem morre em acidente no Paraná" }
     ];
 function showSuggestions(value) {
