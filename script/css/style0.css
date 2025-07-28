@@ -145,3 +145,57 @@ right:0;left:50%;bottom:0;top:0;
 display:none;
 overflow-y:auto;
 }
+
+@media (min-width:1025px){
+article p{
+font-size: 1.2em;
+margin: 0 14% 15px 14%;
+}
+article p.d{
+padding-top: 20px;
+}
+article p.d:first-letter{
+font-size: 3.7em;
+}
+article p.date{
+font-size: 0.9em;
+}
+article h2{
+margin:0 20% 15px 20%;
+font-size:1.7em;
+}
+header button{
+margin-left: 35.0em;
+border:0;
+font-size: 1.8em;
+background: none;
+}
+article img.r{
+margin:1.5em 14% 1.5em 1.5em;
+width: 400px;
+height:auto;
+display:inline;
+float: right;
+}
+article video.r{
+margin:1.5em 14% 1.5em 1.5em;
+width: 400px;
+height:auto;
+display:inline;
+float: right;
+}
+article img.l{
+margin:1.5em 1.5em 1.5em 14%;
+width: 400px;
+height: auto;
+display: inline;
+float: left;
+}
+article video.l {
+margin: 1.5em 1.5em 1.5em 14%;
+width: 400px;
+height: auto;
+display: inline;
+float: left;
+}
+}
