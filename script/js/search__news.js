@@ -4,7 +4,7 @@ const links = [
 { url: "../article/002.html", text: "Família Inteira Morre em Acidente" },
 { url: "../article/004.html", text: "Brasileiro Morre Afogado ao Salvar Parente" },
 { url: "../article/010.html", text: "Jovem morre após explosão de churrasqueira em SC; vítima ficou um mês internado" },
-
+{ url: "../article/012.html", text: "11 de Setembro de 2001: o maior atentado terrorista de todos os tempos" },
 { url: "../article/005.html", text: "Navio RMS - Titanic afunda no oceano" },
 { url: "../article/006.html", text: "Fim da Primeira Guerra Mundial" }
 

@@ -8,6 +8,7 @@ const links = [
 { url: "script/article/006.html", text: "Fim da Primeira Guerra Mundial" },
 { url: "script/article/010.html", text: "Jovem morre após explosão de churrasqueira em SC; vítima ficou um mês internado" },
 { url: "script/article/009.html", text: "Dançarino Augusto Bergmann da Cunha" },
+{ url: "script/article/012.html", text: "11 de Setembro de 2001: o maior atentado terrorista de todos os tempos" },
 { url: "script/article/008.html", text: "Após desistir de festa na boate Kiss, jovem morre em acidente no Paraná" }
     ];
 function showSuggestions(value) {
