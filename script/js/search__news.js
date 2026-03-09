@@ -6,7 +6,9 @@ const links = [
 { url: "../article/010.html", text: "Jovem morre após explosão de churrasqueira em SC; vítima ficou um mês internado" },
 { url: "../article/012.html", text: "11 de Setembro de 2001: o maior atentado terrorista de todos os tempos" },
 { url: "../article/005.html", text: "Navio RMS - Titanic afunda no oceano" },
-{ url: "../article/006.html", text: "Fim da Primeira Guerra Mundial" }
+{ url: "../article/006.html", text: "Fim da Primeira Guerra Mundial" },
+{ url: "../article/017.html", text: "Com mais de 900 mortes, 17 de julho é uma das datas mais sombrias da aviação" }
+
 
 
     ];

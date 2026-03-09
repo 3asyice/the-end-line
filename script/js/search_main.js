@@ -9,7 +9,8 @@ const links = [
 { url: "script/article/010.html", text: "Jovem morre após explosão de churrasqueira em SC; vítima ficou um mês internado" },
 { url: "script/article/009.html", text: "Dançarino Augusto Bergmann da Cunha" },
 { url: "script/article/012.html", text: "11 de Setembro de 2001: o maior atentado terrorista de todos os tempos" },
-{ url: "script/article/008.html", text: "Após desistir de festa na boate Kiss, jovem morre em acidente no Paraná" }
+{ url: "script/article/008.html", text: "Após desistir de festa na boate Kiss, jovem morre em acidente no Paraná" },
+{ url: "script/article/017.html", text: "Com mais de 900 mortes, 17 de julho é uma das datas mais sombrias da aviação" }
     ];
 function showSuggestions(value) {
 const suggestions = document.getElementById('suggestions');
